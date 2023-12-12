@@ -1,0 +1,42 @@
+print("Historia o Wyrębickim")
+int(input("Wstęp"))
+Początek=input("Czy chcesz zacząć tą jakże interesującą historie? [T/N]")
+if Początek =="t":
+    print("Bardzo się cieszę")
+if Początek =="n":
+    print("ty kurwo")
+print("rozdział 1")
+rozdziałI=input("Paweł proponuje ci wyjście na basen Idziesz? [T/N]")
+if rozdziałI =="t":
+    print("Paweł się cieszy i cię ściska tak że się prawie zeżygałeś")
+if rozdziałI =="n":
+    print("Paweł się zdenerwował i cię zmażdża")
+if rozdziałI=="t":
+    print("PRZYGOTOWANIE NA BASEN")
+elif rozdziałI=="n":
+    print("Bad ending")
+Przygotowanienabasen=input("Co bierzesz? Kebab/kąpielówki")
+if Przygotowanienabasen=="Kebab":
+    print("Paweł się ucieszył więc jednak idziecie po 2 metrowego kebaba")
+if Przygotowanienabasen=="kąpielówki":
+    print("Idziecie spokojnie na basen")
+if Przygotowanienabasen=="kąpielówki":
+    print("BASEN")
+if Przygotowanienabasen=="kąpielówki":
+     print("Czy kupujesz bilet? [T/N]")
+Basen=input("Czy kupujesz bilet? [T/N]")
+if Basen=="t":
+    print("Normalnie wchodzisz na basen")
+if Basen=="n":
+    print("Ochroniaż to zauważył i zadzwonił po policję (jebany konfident)")
+if Basen=="n":
+    print("Police ending")
+Mainstory=input("fajnie się bawicie dopóki Pawłowi się zachciało srać co robię? [mówie żeby poszedł się wysrać/Nic z tym nie robię]")
+if Mainstory=="mówie żeby poszedł się wysrać":
+    print("Paweł nie zdążył i się zesrał w basenie")
+if Mainstory=="Nic z tym nie robię":
+    print("Paweł nie zdążył i się zesrał w basenie")
+if Mainstory=="mówie żeby poszedł się wysrać":
+    print("Ochrona nas wywala z basenu CAGO ENDING")
+if Mainstory=="Nic z tym nie robię":
+    print("Ochrona was wywala CAGO ENDING")
