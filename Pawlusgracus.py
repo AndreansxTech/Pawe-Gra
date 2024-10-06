@@ -4,7 +4,7 @@ Początek=input("Czy chcesz zacząć tą jakże interesującą historie? [t/n]")
 if Początek =="t":
     print("Bardzo się cieszę")
 if Początek =="n":
-    print("ty kurwo")
+    print("hamie jeden")
     exit()
 print("rozdział 1")
 rozdziałI=input("Paweł proponuje ci wyjście na basen Idziesz? [T/N]")
